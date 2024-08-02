@@ -225,7 +225,7 @@ a {
 }
 .nav_rwdArea{
     
-    background-color: white;
+    background-color: rgb(254, 249, 244);
     height: calc(100vh - 60px);
     width: 100%;
     position: fixed;
@@ -241,7 +241,8 @@ a {
     .nav_rwdArea_head{
         height: 170px;
         width: 100%;
-        background-color: #fcf7f0;
+        border-top: 2px solid #f7f0ea;
+        border-bottom: 1px solid #f7f0ea;
     }
 }
 .nav_rwdArea_head_t{
@@ -301,7 +302,6 @@ a {
 .nav_rwdArea_bottom{
     
     width: 100%;
-    background-color: white;
 
     ul{
         padding-left: 30px;
