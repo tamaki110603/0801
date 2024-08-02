@@ -225,7 +225,8 @@ a {
 }
 .nav_rwdArea{
     
-    background-color: rgb(254, 249, 244);
+    /* background-color: rgb(254, 249, 244); */
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.5) 1% , rgb(255, 246, 238) 3%);
     height: calc(100vh - 60px);
     width: 100%;
     position: fixed;
@@ -239,18 +240,17 @@ a {
     transition: .7s;
 
     .nav_rwdArea_head{
-        height: 170px;
+        height: 180px;
         width: 100%;
-        border-top: 2px solid #f7f0ea;
         border-bottom: 1px solid #f7f0ea;
     }
 }
 .nav_rwdArea_head_t{
-    height: 110px;
+    height: 100px;
     width: 100%;
     
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     padding-inline: 30px;
 }
@@ -278,6 +278,7 @@ a {
     justify-content: space-between;
     color: var(--text_primary);
     padding-inline: 30px;
+    margin-top: 30px;
 }
 .nrhb_l span{
     color: var(--orange);

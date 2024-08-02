@@ -156,3 +156,16 @@ const hamburger = document.querySelector(".hamburger");
                 user_area.classList.remove("active");
             }
         });
+
+
+        nav_rwdArea.style.backgroundImage = "linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.5) 1% , rgb(255, 246, 238) 3%)";
+
+        
+
+        window.addEventListener('scroll', function() {
+        if (window.scrollY > 0) {
+            nav_rwdArea.style.backgroundImage = "linear-gradient(180deg, rgb(254, 249, 244) , rgb(255, 246, 238) )";
+        }else {
+            nav_rwdArea.style.backgroundImage = "linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.5) 1% , rgb(255, 246, 238) 3%)";
+        }
+        });
